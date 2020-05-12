@@ -11,7 +11,7 @@ public class Test1 {
                     .get("http://ergast.com/api/f1/2017/circuits.json")
                  .then()
                     .assertThat()
-                    .body()
+                    .body();
 
 
     }
